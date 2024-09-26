@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+.radial-blue{
+    background: radial-gradient(lightyellow, lightblue); /* radial-gradient(start colour, stop colour) */
+}
+.radial-purple{
+    background: radial-gradient(rgb(179, 232, 234), rgb(150, 169, 232)); 
+}
+
+@layer{ /* to write css till a certain scope*/
+    html{
+        /*@apply bg-purple-300 text-black;*/
+    }
+}

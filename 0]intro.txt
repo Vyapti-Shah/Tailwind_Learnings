@@ -1,0 +1,4 @@
+CLI - a tool used to install everything
+
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch  =  used to attach the output with the input file 
+--watch in the above command updates the output file when changes done in the input file 

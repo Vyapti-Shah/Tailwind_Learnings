@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customization</title>
+    <link rel="stylesheet" href="introoutput.css">
+<style>
+    .measures{
+        height: 100px;
+        width: 100px;
+    }
+    .small{
+        height: 50px;
+        width: 50px;
+    }
+    .smallest{
+        height: 16px;
+        width: 16px;
+    }
+</style>
+</head>
+<body class="min-h-screen grid place-content-center radial-purple">
+   <div class="w-full h-screen p-5">
+        <div>
+            <div class="bg-emerald-500 measures" ></div>
+        </div>
+        <br>
+        <div class="bg-blue-400 measures rounded-full shadow-2xl"></div>
+        <br>
+        <div class="bg-purple-800 measures rounded-full shadow-2xl grid place-content-center">
+            <div class="bg-purple-400 small rounded-full grid place-content-center">
+                <div class="bg-purple-300 smallest rounded-full"></div>
+            </div>
+        </div>
+   </div>
+</body>
+</html>
